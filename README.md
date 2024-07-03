@@ -10,9 +10,7 @@ Navigate to the project directory: cd Flipkart-clone
 
 Open the temp.html file in your preferred web browser.
 # Sneak Peek of Site :
-![Uploading screencapture-file-C-Users-lenovo-OneDrive-Desktop-web-development-temp12-responsive-temp-html-2024-07-03-14_14_25.png…]()
-
-
+![one](https://github.com/uditpanwarr/Flipkart-clone/assets/173993766/69cfb824-b202-40f7-84f6-d04b9cc55e0e)
 
 
 # Disclaimer
