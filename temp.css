@@ -1,0 +1,841 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.exploreplus{
+    position: absolute;
+    height:35px;
+width: 90px;
+left: 99px;
+top: 15px;
+}
+
+.searchbar{
+    position: absolute;
+    height: 40px;
+    width: 460px;
+    left: 230px;
+    background-color: rgb(235, 246, 251);
+    border: 0px;
+    border-radius: 10px;
+    top: 13px;
+    padding-left: 50px;
+    font-size: large;
+}
+
+.seaarcbar{
+    position: absolute;
+    height: 32px;
+    width: 32px;
+    left: 240px;
+    top: 18px;
+}
+
+.peoplw{
+    position: absolute;
+    height: 25px;
+    width: 20px;
+}
+.sccount{
+ 
+        position: absolute;
+        height:28px;
+        width: 28px;
+left: 770px;
+top: 20px;
+
+    }
+
+.dropdown{
+    
+        width: 100px;
+        color: black;
+        cursor: pointer;
+        position: relative;
+        left: 804px;
+        top: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 60px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+          }
+          .dropdown-content a{
+            display: block;
+            width: 60px;
+            height: 20px;
+          }  
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+.downrrow{
+    position: absolute;
+    height: 14px;
+    width: 14px;
+    left: 842px;
+    top: 28px;
+}
+
+.cartshoping{
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    right: 355px;
+    top: 22px;
+}
+.numberseven{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    right: 357px;
+    top: 16px;
+    
+}
+
+.cart a{
+    width: 100px;
+    color: black;
+    top:25px;
+    text-decoration: none;
+    position: absolute;
+    right:242px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.shoping{
+    position: absolute;
+    height: 27px;
+    width: 27px;
+    right: 233px;
+    top: 22px;
+}
+
+.sellerbecome
+{
+    width: 130px;
+    color: black;
+    top:25px;
+    text-decoration: none;
+    position: absolute;
+    right:92px;
+    font-size: 17px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.drown{
+    
+    width: 10px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    left: 96%;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    }
+    .drown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .drown-content a{
+        display: block;
+        width: 60px;
+        height: 20px;
+      }  
+    .drown:hover .drown-content {
+      display: block;
+    }
+
+.dott
+{
+    position: absolute;
+    height: 20px;
+    top: 7px;
+} 
+
+ .wholepage{
+    position: absolute;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(239, 239, 254);
+    top: 65px;
+} 
+.sidebar{
+    position: absolute;
+    width: 98%;
+    height: 140px;
+    background-color: white;
+    top: 10px;
+    left: 15px;
+}
+
+.allpic{
+    position: absolute;
+    width: 98%;
+    height: 100px;
+    background-color: white;
+    top: 20px;
+    left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.photo1{
+    height: 60px;
+    width: 60px ;
+}
+
+.Grocery a{
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 60px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+}
+
+.Mobiles a{
+
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 183px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+}
+
+
+
+.Fashion{
+    
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 302px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+    }
+    .Fashion-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .Fashion-content a{
+        display: block;
+        width: 60px;
+        height: 20px;
+      }  
+    .Fashion:hover .Fashion-content {
+      display: block;
+    }
+
+    .fashionarrow{
+        position: absolute;
+        height: 16px;
+        width: 15px;
+        left: 362px;
+        top: 105px;
+    }
+
+.photo3{
+    height: 60px;
+    width: 80px ;
+}
+
+.photo4{
+    height: 60px;
+    width: 80px;
+}
+
+.photo5{
+    height: 60px;
+    width: 80px;
+}
+
+
+.photo6{
+    height: 60px;
+    width: 80px;
+}
+
+
+.photo7{
+    height: 50px;
+    width: 80px;
+    margin-top: 10px;
+    top: 10px;
+}
+
+
+.photo8{
+    height: 60px;
+    width: 80px;
+}
+
+.photo9{
+    height: 60px;
+    width: 80px;
+}
+
+
+
+.Electronic{
+    
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 427px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+    }
+    .Electronic-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .Electronic-content a{
+        display: block;
+        width: 60px;
+        height: 20px;
+      }  
+    .Electronic:hover .Electronic-content {
+      display: block;
+    }
+
+.downarowwelectro{
+    position: absolute;
+    height: 16px;
+    width: 15px;
+    left: 510px;
+    top: 105px;   
+}
+
+
+
+
+
+
+.Furniture{
+ position: absolute;
+ top: 105px;
+ width: 110px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 580px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+    }
+    .Furniture-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 60px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .Furniture-content a{
+        display: block;
+        width: 60px;
+        height: 20px;
+      }  
+    .Furniture:hover .Furniture-content {
+      display: block;
+    }
+.Furniturelectro{
+    position: absolute;
+    height: 16px;
+    width: 15px;
+    left: 670px;
+    top: 110px;  
+
+}
+
+.Appliances a{
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 720px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+
+}
+
+
+.Travel a{
+    position: absolute;
+    top: 105px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+left: 870px;
+color: rgb(37, 36, 36);
+text-decoration: none;
+
+}
+
+
+.Beauty{
+    position: absolute;
+    top: 105px;
+    width: 120px;
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   left: 960px;
+   color: rgb(37, 36, 36);
+   text-decoration: none;
+       }
+       .Beauty-content {
+           display: none;
+           position: absolute;
+           background-color: #f9f9f9;
+           min-width: 60px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+         }
+         .Beauty-content a{
+           display: block;
+           width: 60px;
+           height: 20px;
+         }  
+       .Beauty:hover .Beauty-content {
+         display: block;
+       }
+
+.Beautyelectro{
+    position: absolute;
+    height: 16px;
+    width: 15px;
+    left: 1085px;
+    top: 110px;   
+}
+
+
+.Wheelers{
+    position: absolute;
+    top: 105px;
+    width: 150px;
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 14px;
+   right: 20px;
+   color: rgb(37, 36, 36);
+   text-decoration: none;
+       }
+       .Wheelers-content {
+           display: none;
+           position: absolute;
+           background-color: #f9f9f9;
+           min-width: 60px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 1;
+         }
+         .Wheelers-content a{
+           display: block;
+           width: 60px;
+           height: 20px;
+         }  
+       .Wheelers:hover .Wheelers-content {
+         display: block;
+       }
+
+
+.Wheelerselectro{
+    position: absolute;
+    height: 16px;
+    width: 15px;
+    right: 20px;
+    top: 110px;   
+}
+
+.bigpic{
+    position: absolute;
+    width: 98%;
+    height: 210px;
+    top: 170px;
+    left: 15px;
+}
+
+.leftarrow
+{
+    position: absolute;
+    height: 85px;
+    width: 40px;
+    border-radius: 0px 3px 3px 0px;
+    background-color: rgb(252, 252, 252);
+    top: 230px;
+    left: 15px;
+}
+
+
+
+
+
+.rightsrrow
+{
+    position: absolute;
+    height: 85px;
+    width: 40px;
+    border-radius: 3px 0px 0px 3px;
+    background-color: rgb(255, 255, 255);
+    top: 230px;
+    right: 10px;
+    box-shadow: 0px 5px 5px 0px rgb(187, 181, 181);
+}
+
+
+.left2{
+    position: absolute;
+    height:15px;
+    width: 15px;
+    top: 35px;
+    left: 10px;
+}
+
+
+.right2{
+    position: absolute;
+    height:15px;
+    width: 15px;
+    top: 35px;
+    left: 10px;
+}
+
+
+
+.lastdiv{
+    position: absolute;
+    top: 400px;
+    width: 82%;
+    background-color: rgb(255, 255, 255);
+    height: 360px;
+    left: 15px;
+}
+
+.bestofelectro{
+    position: absolute;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-optical-sizing: auto;
+      top: 20px;  
+      left:20px;
+      font-size: 25px;
+}
+
+.boxdiv{
+    position: absolute;
+    width: 82%;
+left: 10px;
+    height: 280px;
+    top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.boxa1{
+    height: 280px;
+width: 200px;
+border: 1px solid rgb(120, 117, 117);
+
+}
+
+
+
+.boxa2{
+    height: 280px;
+width: 200px;
+border: 1px solid rgb(120, 117, 117);
+
+}
+
+.boxa3{
+    height: 280px;
+width: 200px;
+border: 1px solid rgb(120, 117, 117);
+
+}
+
+.boxa4{
+    height: 280px;
+width: 200px;
+border: 1px solid rgb(120, 117, 117);
+
+}
+
+.boxa5{
+    height: 280px;
+width: 200px;
+border: 1px solid rgb(120, 117, 117);
+position: relative;
+left: 860px;
+top: 70px;
+}
+
+
+.backcolour{
+    position: absolute;
+    height: 330px;
+    width: 100px;
+  
+    right: 113px;
+top: 420px;
+background-color: rgb(239, 239, 254);
+
+}
+
+.oneplus{
+    position: absolute;
+    height: 200px;
+    width: 170px;
+    top: 10px;
+    left: 25px;
+}
+
+.Truewireless{
+    position: absolute;
+    top: 222px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(74, 68, 68);
+font-size: 14px;
+left: 16px;
+}
+
+
+.grabnow a{
+    position: absolute;
+    top: 245px;
+    text-decoration: none;
+    color: rgb(31, 23, 23);
+    left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.watch{
+    position: absolute;
+    height: 200px;
+    width: 170px;
+    top: 10px;
+  left: 230px;
+}
+
+
+.Smartwatches{
+    position: absolute;
+    top: 222px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(74, 68, 68);
+font-size: 14px;
+left: 246px;
+}
+
+.price{
+    position: absolute;
+    top: 245px;
+    text-decoration: none;
+   color: rgb(31, 23, 23);
+    left: 270px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+.spearker{
+    position: absolute;
+    height: 200px;
+    width: 130px;
+    top: 10px;
+  left: 460px;   
+}
+
+.Selling{
+    position: absolute;
+    top: 222px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(74, 68, 68);
+font-size: 14px;
+left: 436px;
+}
+
+
+
+.price2{
+    position: absolute;
+    top: 245px;
+    text-decoration: none;
+   color: rgb(31, 23, 23);
+    left: 490px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.sony{
+    position: absolute;
+    height: 200px;
+    width: 195px;
+    top: 10px;
+  left: 640px;
+}
+
+.Mirrorless{
+    position: absolute;
+    top: 222px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(74, 68, 68);
+font-size: 14px;
+left: 656px;
+}
+.shownow a{
+    position: absolute;
+    top: 245px;
+    text-decoration: none;
+   color: rgb(31, 23, 23);
+    left: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.keybord{
+    top: 66px;
+   position: absolute;
+   height: 100px;
+    width: 200px;
+}
+
+.topkey{
+    position: absolute;
+    top: 222px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: rgb(74, 68, 68);
+font-size: 14px;
+left: 20px;
+}
+
+.pricekey a{
+    position: absolute;
+    top: 245px;
+    text-decoration: none;
+   color: rgb(31, 23, 23);
+  left: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+
+
+.skasar{
+    position: absolute;
+    height: 360px;
+    width: 190px;
+    background-color: rgb(255, 255, 255);
+    right: -100px;
+    top: -20px;
+}
+.blueaksar{
+    position: absolute;
+    background-color: blue;
+    height: 300px;
+    width: 190px;
+    top: 30px;
+}
+
+.purpleaksar{
+    position: absolute;
+    background-color: purple;
+    height: 280px;
+    width: 160px;
+    top: 10px;
+    left: 15px;
+    border-radius: 10px;
+    border: gold 2px solid;
+}
+
+.aksarair{
+    position: absolute;
+    height: 100px;
+    width: 140px;
+    border-radius: 10px 10px 0px 0px ;
+    top: 10px;
+    left: 8px;
+}
+
+.FLYAKSAR{
+    position: absolute;
+    height: 27px;
+    width: 140px;
+    border-radius: 0px 0px 7px 7px;
+    top: 10px;
+    left: 8px;
+    background-color: yellow;
+    top: 110px;
+}
+
+.codeaksar{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+
+.akasasflight{
+    position: absolute;
+top: 170px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+left: 23px;
+font-size: 17px;
+}
+
+.aksarprice{
+    position: absolute;
+top: 200px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+left: 15px;
+font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
