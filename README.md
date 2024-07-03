@@ -8,7 +8,8 @@ Clone the repository: git clone https://github.com/uditpanwarr/Flipkart-clone
 
 Navigate to the project directory: cd Flipkart-clone
 
-Open the index.html file in your preferred web browser.
+Open the temp.html file in your preferred web browser.
+
 
 
 
